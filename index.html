@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Weather App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <img class="weather-img" id="broken_clouds_day" src="img/broken_clouds_day.jpg" alt="">
+    <img class="weather-img" id="broken_clouds_night" src="img/broken_clouds_night.jpg" alt="">
+    <img class="weather-img" id="clear_sky_day" src="img/clear_sky_day.jpg" alt="">
+    <img class="weather-img" id="clear_sky_night" src="img/clear_sky_night.jpg" alt="">
+    <img class="weather-img" id="day_snow" src="img/day_snow.jpg" alt="">
+    <img class="weather-img" id="night_snow" src="img/night_snow.jpg" alt="">
+    <img class="weather-img" id="few_clouds_day" src="img/few_clouds_day.jpg" alt="">
+    <img class="weather-img" id="few_clouds_night" src="img/few_clouds_night.jpg" alt="">
+    <img class="weather-img" id="heavy_rain_day" src="img/heavy_rain_day.jpg" alt="">
+    <img class="weather-img" id="heavy_rain_night" src="img/heavy_rain_night.jpg" alt="">
+    <img class="weather-img" id="mist_day" src="img/mist_day.jpg" alt="">
+    <img class="weather-img" id="mist_night" src="img/mist_night.jpg" alt="">
+    <img class="weather-img" id="scattered_clouds_day" src="img/scattered_clouds_day.jpg" alt="">
+    <img class="weather-img" id="scattered_clouds_night" src="img/scattered_clouds_night.jpg" alt="">
+    <img class="weather-img" id="shower_rain_day" src="img/shower_rain_day.jpg" alt="">
+    <img class="weather-img" id="shower_rain_night" src="img/shower_rain_night.jpg" alt="">
+    <img class="weather-img" id="thunderstorm" src="img/thunderstorm.jpg" alt="">
+
+    <div class="main-container">
+        <form action="">
+            <input id="city-name" type="text" placeholder="Enter a city name" required>
+            <button type="submit">Search</button>
+        </form>
+
+        <div class="inner-container">
+            <div class="loading">
+                <div aria-label="Orange and tan hamster running in a metal wheel" role="img" class="wheel-and-hamster">
+                    <div class="wheel"></div>
+                    <div class="hamster">
+                        <div class="hamster__body">
+                            <div class="hamster__head">
+                                <div class="hamster__ear"></div>
+                                <div class="hamster__eye"></div>
+                                <div class="hamster__nose"></div>
+                            </div>
+                            <div class="hamster__limb hamster__limb--fr"></div>
+                            <div class="hamster__limb hamster__limb--fl"></div>
+                            <div class="hamster__limb hamster__limb--br"></div>
+                            <div class="hamster__limb hamster__limb--bl"></div>
+                            <div class="hamster__tail"></div>
+                        </div>
+                    </div>
+                    <div class="spoke"></div>
+                </div>
+            </div>
+            <div class="data">
+                <!-- <div class="city-container">
+                    <div class="city-name">Roorkee</div>
+                    <div class="weather-condition">Clear</div>
+                </div>
+
+                <div class="temperature-container">
+                    <div class="weather-icon"><img src="https://openweathermap.org/img/wn/01d@2x.png" alt=""></div>
+                    <div class="temp">21.00°C</div>
+                    <div class="minmax">
+                        <div class="min">Min: 21°C</div>
+                        <div class="max">Max: 29°C</div>
+                    </div>
+                </div> -->
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
